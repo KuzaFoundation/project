@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact</title>
+<link rel="icon" type="image/x-icon" href="image.png">
+<style>
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>CONTACTS US THROUGH:</h2>
+
+<div class="container">
+  <img src="" alt="" style="width:90px">
+  <p><span>Tabitha Mathenge.</span> CEO at Kuza Foundation.</p>
+  <p>Contact Details 54748499302.</p>
+</div>
+
+<div class="container">
+  <img src="" alt="" style="width:90px">
+  <p><span>Oguna Oguna.</span> CEO at Company.</p>
+  <p>No one is better than Oguna.</p>
+</div>
+
+<div class="container">
+    <img src="" alt="" style="width:90px">
+    <p><span>Ismail Mohamed.</span> Software Developer.</p>
+    <p>No one is better than Ismail.</p>
+  </div>
+
+</body>
+</html>
